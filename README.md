@@ -1,5 +1,3 @@
-# DeepLabv3_plus
-=======
 # DeepLabV3+   pytorch
 在[bubbliiing](https://github.com/bubbliiiing/deeplabv3-plus-pytorch)大佬代码的基础上进行了修改，添加了部分注释。该模型Backbone采用MobileNetv2网络。
 ## 图片检测demo
