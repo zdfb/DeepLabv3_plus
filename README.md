@@ -1,6 +1,6 @@
 # DeepLabV3+   pytorch
 在[bubbliiing](https://github.com/bubbliiiing/deeplabv3-plus-pytorch)大佬代码的基础上进行了修改，添加了部分注释。该模型Backbone采用MobileNetv2网络。
-## 图片检测demo
+## 图片分割demo
 <img src="Image_samples/result.jpg" ><br>
 
 ## 预训练模型
@@ -19,7 +19,7 @@
 python voc_annotation.py
 ```
 生成的数据集划分文件存放在VOCdevkit\VOC2007\ImageSets\Segmentation文件夹下。
-### 4. 开始训练
+### 3. 开始训练
 将下载好的.pth格式预训练模型deeplab.pth文件放在model_data文件夹下。修改train.py下的classes_path及model_path指向，运行：
 ``` bash
 python train.py
